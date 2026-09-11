@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "HTML5",
+    "category": "Frontend",
+    "description": "The standard markup language used to structure web pages and applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": 2,
+    "name": "CSS3",
+    "category": "Styling",
+    "description": "A stylesheet language used to design, style, and create responsive web interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "A versatile programming language used to build interactive and dynamic web applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "rating": 5.0,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 4,
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed superset of JavaScript that improves code quality and maintainability.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "category": "Frontend",
+    "description": "A popular JavaScript library for building component-based user interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 6,
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "A React framework for building fast, scalable, and production-ready web applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": 7,
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for rapidly building modern and responsive interfaces.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 8,
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime used to build scalable servers, APIs, and backend applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 9,
+    "name": "Python",
+    "category": "Language",
+    "description": "A versatile programming language widely used for web development, automation, data, and AI.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 10,
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A document-oriented NoSQL database designed for flexible and scalable applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 11,
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful open-source relational database known for reliability and advanced SQL features.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": 12,
+    "name": "Git",
+    "category": "Tools",
+    "description": "A distributed version control system used to track code changes and collaborate with developers.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  }
+  
+]
