@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
           <img src={footerLogo} />
           <p className="text-[#64748B] mt-3 mb-10">
-            Curated tools, technologies, and resources for developers building{" "}
+            Curated tools, technologies, and resources for developers building
             <br />
             modern software.
           </p>
@@ -29,7 +29,7 @@ const Footer = () => {
           <h1 className="font-bold mb-4 ">COMPANY</h1>
           <div className=" text-[#475569]">
             <p>About</p>
-            <p  className="mt-2 mb-2">Contact</p>
+            <p className="mt-2 mb-2">Contact</p>
             <p>Careers</p>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
       <div className="container mx-auto flex justify-between mt-20 border-t border-t-gray-500/15 pt-10 text-[#475569]/55 text-[15px]">
         <p> © {new Date().getFullYear()} - Dev Stack. All rights reserved.</p>
-        <ul className="flex gap-3 " >
+        <ul className="flex gap-3 ">
           <li>Privacy</li>
           <li>Terms</li>
         </ul>
