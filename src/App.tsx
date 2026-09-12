@@ -3,6 +3,7 @@ import Banner from "./component/Banner";
 import NavBar from "./component/NavBar";
 import Technologies from "./component/Technology/Technologies";
 import type { TechnoType } from "./Types/TechnoType";
+import Footer from "./component/Footer";
 
 const technoFetech = async (): Promise<TechnoType[]> => {
   const res = await fetch("/data.json");
@@ -19,6 +20,7 @@ export default function App() {
       <Suspense fallback={<h3>Loading...</h3>}>
         <Technologies technoPromise={technoPromise} />
       </Suspense>
+      <Footer/>
     </>
   );
 }

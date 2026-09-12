@@ -1,12 +1,12 @@
 import navLogo from "../assets/logo-text.png";
 
-export default function NavBar () {
+export default function NavBar() {
   return (
     <nav className="sticky top-0 z-50 w-full bg-white  border-b border-b-gray-500/15 mb-35">
       <div className="  navbar justify-between container mx-auto">
         <img src={navLogo} alt="Nav Logo" />
 
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 text-[#475569]">
           <li>
             <span className="text-[#DB2777]">Home</span>
           </li>
@@ -24,6 +24,4 @@ export default function NavBar () {
       </div>
     </nav>
   );
-};
-
-
+}
