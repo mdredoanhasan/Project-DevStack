@@ -3,6 +3,7 @@ import type { TechnoType } from "../../Types/TechnoType";
 
 import AddStack from "./AddStack";
 import TechnoCard from "./TechnoCard";
+import { toast } from "react-toastify";
 
 const AllTechno = ({ technology }: { technology: TechnoType[] }) => {
   const [stack, setStack] = useState<{ techno: TechnoType; idx: number }[]>([]);
@@ -15,11 +16,16 @@ const AllTechno = ({ technology }: { technology: TechnoType[] }) => {
   };
 
   const handleRemoveFromStack = (idx: number) => {
+    const removedItem = stack.find((item) => item.idx === idx);
     setStack((prev) => prev.filter((item) => item.idx !== idx));
+    if (removedItem) {
+      toast(`${removedItem.techno.name} removed`);
+    }
   };
 
   const handleRemoveAll = () => {
     setStack([]);
+    toast("All technologies removed");
   };
 
   return (

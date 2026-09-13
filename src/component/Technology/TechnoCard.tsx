@@ -1,6 +1,6 @@
 import type { TechnoType } from "../../Types/TechnoType";
 import star from "../../assets/star.png";
-import { IoCheckmarkSharp } from "react-icons/fa6";
+import { FaCheck } from "react-icons/fa6";
 import { toast } from "react-toastify";
 
 interface TechnoCardProps {
@@ -51,7 +51,7 @@ const TechnoCard = ({ techno, isInStack, onAddToStack }: TechnoCardProps) => {
         >
           {isInStack ? (
             <>
-              <IoCheckmarkSharp /> Added to Stack
+              <FaCheck /> Added to Stack
             </>
           ) : (
             "Add to Stack"
