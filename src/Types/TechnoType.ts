@@ -7,6 +7,6 @@ export interface TechnoType {
   rating: number;
   difficulty: string;
   badge: string;
-  bgColor: string
-  textColor: string
+  bgColor: string;
+  textColor: string;
 }
